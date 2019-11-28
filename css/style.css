@@ -9,9 +9,7 @@ body {
 }
 
 .container {
-  margin: 100px auto;
   background-color: #dadada;
-  width: 70%
 }
 
 h1 {
@@ -39,43 +37,40 @@ h2 {
 }
 
 .baku {
-  background-image: url(/images/baku.jpg);
+  background-image: url(../images/baku.jpg);
 }
 
 .london {
-  background-image: url(/images/london.png);
+  background-image: url(../images/london.png);
 }
 
 .madrid {
-  background-image: url(/images/madrid.jpg);
+  background-image: url(../images/madrid.jpg);
 }
 
 .rome {
-  background-image: url(/images/rome.jpg);
+  background-image: url(../images/rome.jpg);
 }
 
 @media screen and (min-width: 575px){
   .container {
-      margin: 1%;
-      width: 80%;
-      float: left;
+      text-align: center;
+      width: 100%;
     }
   .preview {
-      margin: 1%;
-      width: 42%;
-      float: left;
+      display: inline-block;
+      width: 30%;
+      margin: 10px;
     }
 }
 
 @media screen and (min-width: 991px){
   .container {
-      margin: 1%;
+      text-align: center;
       width: 100%;
-      float: left;
     }
   .preview {
-      margin: 1%;
-      width: 20%;
-      float: left;
+      display: inline-block;
+      width: 15%;
     }
 }
